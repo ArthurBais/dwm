@@ -100,6 +100,7 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_d,      spawn,          SHCMD("dmenu_run") },
 	{ MODKEY,                       XK_Return, spawn,          SHCMD("$TERMINAL") },
     { MODKEY,                       XK_b,      spawn,          SHCMD("$BROWSER") },
+    { MODKEY,                       XK_n,      spawn,          SHCMD("$BROWSER_NORMAL") },
     { MODKEY,                       XK_m,      spawn,          SHCMD("dmenu_bookmarks") },
     { MODKEY,                       XK_Print,  spawn,          SHCMD("maim $SCREENSHOT_DIR/pic-full-$(date +%Y%m%d-%H%M%N).png") }, // screenshot
     { MODKEY|ShiftMask,             XK_Print,  spawn,          SHCMD("maimpick") },
